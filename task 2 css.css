@@ -2,7 +2,7 @@ body{
     margin: 0px;
     padding: 0px;
 }
-.div1{
+.navbar{
     background-color: #f44336;
     width: 100%;
     display: flex;
@@ -37,7 +37,7 @@ body{
 .links{
     font-size: 20px;
     text-decoration: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Montserrat", sans-serif;
     cursor: pointer;
     text-underline-position:inherit ;
     color: white;
@@ -62,29 +62,39 @@ body{
     justify-content: center;
     align-items: center;
 }
-.h1{
-    font-family: "arial,helvetica,sans-sarif";
+.startpage{
+    /* font-family: "arial,helvetica,sans-sarif"; */
+    font-family: "Montserrat", sans-serif;
     color: white;
     font-weight: 100 !important;
-    font-size: 56px;
-    word-spacing: 5px;
+    font-size: 64px;
+    word-spacing: 0.3px;
+    margin-top: 44px;
 }
-.p{
+.templateby{
     color: white;
-    font-family: Arial, Helvetica, sans-serif; ;
-    font-size: 20px;
+    font-family: "lato", sans-serif ;
+    font-size: 24px;
+    margin-top: 24px;
+    /* background-color: aqua; */
 }
 .button{
     padding-top: 2px;
     color: white;
     background-color: black;
-    font-family: Arial, Helvetica, sans-serif; ;
-    font-size: 16px;
+    /* font-family: Arial, Helvetica, sans-serif; ; */
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
     height: 50px !important;
 }
 .button:hover{
     background-color:rgb(210, 215, 221) ;
     color: black;
+}
+.anchorblacktext{
+    font-size: 16px;
+    width: 700px;
+    font-family: "lato", sans-serif ;
 }
 .button{
     width: 150px;
@@ -93,33 +103,29 @@ body{
     justify-content: center;
     align-items: center;
 }
-.h2{
+.anchorh{
+    /* background-color: aqua/; */
     padding-top: 0px;
     font-family: "Montserrat", sans-serif;
-    font-size: 36px;
+    font-size: 34px;
     letter-spacing: 1px;
     font-weight: 100;
 }
-.anchor{ 
-    padding-top: 0px;
-    width: 200px;
-    height: 200px;
-    padding-top: 100px;
-
-}
-.anchortext{
+.anchorblacktextdiv{
     padding-top: 10px !important;
 }
-.greytext{
+.greytextdiv{
+    width: 700px;
     color: grey;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: "lato", sans-serif ;
 }
-.anchordiv{
+.anchortext{
     width: 57.5%;
     display: flex;
     height: 515px;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .anchormaindiv{
@@ -160,35 +166,44 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(57, 57, 57);
-    height: 100px;
+    background-color: black;
+    opacity: 60%;
+    height: 195px;
     width: 100% !important;
     color: white;
+    
+}
+.quote{
+    font-family: "Montserrat", sans-serif ;
+    font-size: 24px;
 
 }
 .icon{
-    display: flex;
+    display: flex !important;
+    justify-content: center !important;
     align-items: center;
-    justify-content: center;
-
-    height: 100px;
+    flex-direction: column;
+    height: 200px;
     width: 100%;
 }
-.facebook{
-    font-size: 20px;
-    width: 20px;
-    color: white;
-    background-color: grey;
+.fa{
+    font-size: 22px !important;
+    color: black;
+    opacity: 60%;
 }
-.fa-brands{
-    font-size: 25px;
-    width:  28px;
-    height: 28px;
-    color: grey;
-}
-.fa-brands:hover{
-    color: darkgray;
+.fa:hover{
+    opacity: 40%;
 }
 .ali{
     color: red;
+}
+.powered{
+    display: inline;
+    height: 400px !important;
+}
+.pic-display{
+    display: inline;
+    color: #f44336 !important;
+    font-size: 200px !important;
+    opacity: 100% !important;
 }
